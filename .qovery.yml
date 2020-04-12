@@ -4,7 +4,7 @@ application:
   cloud_region: aws/eu-west-3
   publicly_accessible: true
 routers:
-  - name: main
+  - name: main-sum
     routes:
       - application_name: node-sum
         paths:
